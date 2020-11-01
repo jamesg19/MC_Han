@@ -32,7 +32,7 @@ public class Dibujo extends JPanel implements ActionListener {
     private Timer timer;
     private boolean movimientoCompletado;
     private int paso;
-    private static final int VELOCIDAD =1;
+    private static final int VELOCIDAD =0;
     private static final int LIMITE_FICHAS = 8;
     private static final int LIMITE_TORRES = 3;
     private MainFrame nucleo;

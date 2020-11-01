@@ -143,7 +143,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         cbNumeroFicha.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8" }));
 
-        boton1_2.setBackground(new java.awt.Color(71, 186, 208));
+        boton1_2.setBackground(new java.awt.Color(219, 145, 87));
         boton1_2.setText("mover a 2");
         boton1_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,7 +151,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        boton1_3.setBackground(new java.awt.Color(69, 83, 177));
+        boton1_3.setBackground(new java.awt.Color(0, 192, 181));
         boton1_3.setText("mover a 3");
         boton1_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,7 +159,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        boton2_1.setBackground(new java.awt.Color(71, 186, 208));
+        boton2_1.setBackground(new java.awt.Color(219, 145, 87));
         boton2_1.setText("mover a 1");
         boton2_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -167,7 +167,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        boton2_3.setBackground(new java.awt.Color(69, 83, 177));
+        boton2_3.setBackground(new java.awt.Color(0, 192, 181));
         boton2_3.setText("mover a 3");
         boton2_3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,7 +175,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        boton3_1.setBackground(new java.awt.Color(71, 186, 208));
+        boton3_1.setBackground(new java.awt.Color(219, 145, 87));
         boton3_1.setText("mover a 1");
         boton3_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -183,7 +183,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        boton3_2.setBackground(new java.awt.Color(69, 83, 177));
+        boton3_2.setBackground(new java.awt.Color(0, 192, 181));
         boton3_2.setText("mover a 2");
         boton3_2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

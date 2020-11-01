@@ -272,7 +272,7 @@
         <Component class="javax.swing.JButton" name="boton1_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="d0" green="ba" red="47" type="rgb"/>
+              <Color blue="57" green="91" red="db" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 2"/>
           </Properties>
@@ -283,7 +283,7 @@
         <Component class="javax.swing.JButton" name="boton1_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="b1" green="53" red="45" type="rgb"/>
+              <Color blue="b5" green="c0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 3"/>
           </Properties>
@@ -294,7 +294,7 @@
         <Component class="javax.swing.JButton" name="boton2_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="d0" green="ba" red="47" type="rgb"/>
+              <Color blue="57" green="91" red="db" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 1"/>
           </Properties>
@@ -305,7 +305,7 @@
         <Component class="javax.swing.JButton" name="boton2_3">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="b1" green="53" red="45" type="rgb"/>
+              <Color blue="b5" green="c0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 3"/>
           </Properties>
@@ -316,7 +316,7 @@
         <Component class="javax.swing.JButton" name="boton3_1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="d0" green="ba" red="47" type="rgb"/>
+              <Color blue="57" green="91" red="db" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 1"/>
           </Properties>
@@ -327,7 +327,7 @@
         <Component class="javax.swing.JButton" name="boton3_2">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="b1" green="53" red="45" type="rgb"/>
+              <Color blue="b5" green="c0" red="0" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="mover a 2"/>
           </Properties>
