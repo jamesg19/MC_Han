@@ -2,7 +2,7 @@ package Juego;
 
 /**
  *
- * @author hectoradolfo
+ * @author JamesG
  */
 public class Nodo {
     
