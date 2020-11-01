@@ -1,6 +1,5 @@
 package Juego;
 
-
 import hanoi_2.pkg0.MainFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JDialog;
@@ -95,6 +94,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         torre1 = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("PROYECTO DE MATE COMPUTO 2 Ing. DIego Orozco");
@@ -128,6 +129,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         lblMovimientos.setBackground(new java.awt.Color(214, 232, 231));
         lblMovimientos.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         lblMovimientos.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblMovimientos.setText("0");
         lblMovimientos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel4.setText("Numero de movimientos realizado:");
@@ -141,7 +143,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         lblMinimoMovimientos.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblMinimoMovimientos.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        cbNumeroFicha.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8" }));
+        cbNumeroFicha.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6" }));
 
         boton1_2.setBackground(new java.awt.Color(219, 145, 87));
         boton1_2.setText("mover a 2");
@@ -287,6 +289,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane4.setViewportView(jTextArea1);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -320,7 +326,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(lblMinimoMovimientos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                             .addComponent(cbNumeroFicha, 0, 131, Short.MAX_VALUE)
-                                            .addComponent(lblMovimientos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                                            .addComponent(lblMovimientos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addGap(37, 37, 37)
+                                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(boton1_2)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -363,18 +371,21 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                             .addComponent(boton1_3)
                             .addComponent(boton2_1))
                         .addGap(26, 26, 26)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(cbNumeroFicha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(7, 7, 7)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(lblMinimoMovimientos, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cbNumeroFicha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(7, 7, 7)
+                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblMinimoMovimientos, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addComponent(lblMovimientos, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(41, 41, 41)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -406,7 +417,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         botonReiniciar.setEnabled(true);
         contadorMovimietos = 0;
         iniciar();
-
+        contador();
     }//GEN-LAST:event_botonIniciarActionPerformed
 
     private void botonReiniciarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonReiniciarActionPerformed
@@ -419,31 +430,37 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void boton1_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1_2ActionPerformed
         // TODO add your handling code here:
         mover1_2();
+        contador();
     }//GEN-LAST:event_boton1_2ActionPerformed
 
     private void boton1_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton1_3ActionPerformed
         // TODO add your handling code here:
         mover1_3();
+        contador();
     }//GEN-LAST:event_boton1_3ActionPerformed
 
     private void boton2_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2_1ActionPerformed
         // TODO add your handling code here:
         mover2_1();
+        contador();
     }//GEN-LAST:event_boton2_1ActionPerformed
 
     private void boton2_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton2_3ActionPerformed
         // TODO add your handling code here:
         mover2_3();
+        contador();
     }//GEN-LAST:event_boton2_3ActionPerformed
 
     private void boton3_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3_1ActionPerformed
         // TODO add your handling code here:
         mover3_1();
+        contador();
     }//GEN-LAST:event_boton3_1ActionPerformed
 
     private void boton3_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton3_2ActionPerformed
         // TODO add your handling code here:
         mover3_2();
+        contador();
     }//GEN-LAST:event_boton3_2ActionPerformed
 
     private void botonResolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonResolverActionPerformed
@@ -795,6 +812,23 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         }
     }
 
+    public void contador() {
+        try {
+            int A = Integer.parseInt(lblMinimoMovimientos.getText());
+            int B = Integer.parseInt(lblMovimientos.getText());
+
+            if ((A + 1) >= B) {
+
+            } else {
+                if (B > A) {
+                    JOptionPane.showMessageDialog(null, "Perdiste! :( \nHas sobrepasado los limites minimos de movimiento");
+                } else {
+                }
+            }
+        } catch (Exception e) {
+        }
+    }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton boton1_2;
     private javax.swing.JButton boton1_3;
@@ -815,6 +849,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel lblMinimoMovimientos;
     private javax.swing.JLabel lblMovimientos;
     private javax.swing.JTable torre1;
